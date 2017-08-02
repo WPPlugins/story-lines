@@ -1,0 +1,47 @@
+/*
+* The stylesheet for the Story Lines section.
+*
+* Author: Jacob Martella
+* Package: Story Lines
+* Version: 1.4
+*/
+.story-lines {
+	position: relative;
+	margin: 10px 0px;
+	background-color: #252525;
+	padding-bottom: 5px;
+}
+.story-lines.left {
+	float: left;
+	margin-right: 10px;
+}
+.story-lines.center {
+	margin: auto;
+	clear: both;
+}
+.story-lines.right {
+	float: right;
+	margin-left: 10px;
+}
+.story-lines .title {
+	color: #FFFFFF;
+	background-color: #000000;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 24px;
+	margin: 0px;
+	margin-bottom: 15px;
+	text-align: center;
+	text-transform: uppercase;
+}
+.story-lines ul {
+	padding: 0 8px;
+}
+.story-lines li {
+	color: #FFFFFF;
+}
+@media only screen and (max-width: 500px) {
+	.story-lines {
+		width: 100% !important;
+	}
+}

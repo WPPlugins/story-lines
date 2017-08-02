@@ -1,0 +1,35 @@
+/*
+* The stylesheet for the Story Lines metabox.
+*
+* Author: Jacob Martella
+* Package: Story Lines
+* Version: 1.4
+*/
+#story-lines-meta label {
+	margin-right: 5px;
+}
+.hidden-fields {
+	display: none;
+}
+.story-lines-wrap {
+	margin-bottom: 10px;
+}
+.story-lines-link-fields, .story-lines-options {
+	border-bottom: 1px solid #e5e5e5;
+	padding-bottom: 15px;
+	cursor: move;
+	width: 100%;
+}
+.story-lines-options td {
+	padding: 5px 0;
+}
+.story-lines-link-fields td:first-child, .story-lines-options td:first-child {
+	width: 25%;
+}
+#story_lines_highlight, #story_lines_anchor_id, #story_lines_title {
+	width: 100%;
+}
+
+.wp-color-result {
+	margin-bottom: -3px;
+}
